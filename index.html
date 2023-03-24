@@ -25,8 +25,8 @@
         }
         .b-body{
             position: absolute;
-            top: 50%;
-            left: 30%;
+            top: 250px;
+            left: 150px;
             width: 200px;
             height: 200px;
             -webkit-clip-path: circle(50% at 50% 0);
@@ -35,8 +35,8 @@
         }
         .head{
             position: absolute;
-            top: 30%;
-            left: 50%;
+            top: 150px;
+            left: 250px;
             width: 200px;
             height: 200px;
             -webkit-clip-path: circle(50% at 50% 0);
@@ -45,87 +45,70 @@
             transform: rotate(-90deg);
         }
         .eye1{
+            position: absolute;
+            top: 190px;
+            left: 275px;
             width: 25px;
             height: 25px;
             border-radius: 50%;
             background-color: rgb(255, 255, 255);
-            top: 38%;
-            left: 55%;
-            position: absolute;
         }
         .eye2{
+            position: absolute;
+            top: 195px;
+            left: 280px;
             width: 15px;
             height: 15px;
             border-radius: 50%;
             background-color: rgb(0, 0, 0);
-            top: 39%;
-            left: 56%;
-            position: absolute;
         }
         .mouth{
+            position: absolute;
+            top: 118px;
+            left: 182px;
             width: 67.8px;
             height: 71.9px;
             background-color: rgb(253, 229, 7);
             -webkit-clip-path: polygon(0 45%, 100% 99%, 100% 45%);
             clip-path: polygon(0 45%, 100% 99%, 100% 45%);
-            top: 23.4%;
-            left: 36.3%;
-            position: absolute;
         }
         .wing{
+            position: absolute;
+            top: 165px;
+            left: 101px;
             width: 150px;
             height: 150px;
-            top: 35%;
-            left: 20.2%;
-            position: absolute;
             background-color: rgb(0, 140, 255);
             -webkit-clip-path: polygon(0 45%, 100% 99%, 100% 45%);
             clip-path: polygon(0 45%, 100% 99%, 100% 45%);
         }
         .leg1{
+            position: absolute;
+            top: 340px;
+            left: 220px;
             width: 30px;
             height: 75px;
-            top: 68.7%;
-            left: 43%;
             background-color: rgb(109, 64, 4);
             -webkit-clip-path: polygon(6% 0, 43% 0, 78% 100%, 36% 100%);
             clip-path: polygon(6% 0, 43% 0, 78% 100%, 36% 100%);
-            position: absolute;
         }
         .leg2{
+            position: absolute;
+            top: 340px;
+            left: 260px;
             width: 30px;
             height: 75px;
-            top: 68.7%;
-            left: 51%;
             background-color: rgb(109, 64, 4);
             -webkit-clip-path: polygon(6% 0, 43% 0, 78% 100%, 36% 100%);
             clip-path: polygon(6% 0, 43% 0, 78% 100%, 36% 100%);
-            position: absolute;
         }
-        @media( max-width:400px){
-            .head{
-                left: 210px;
-            }
-            .eye1{
-                left: 240px;
-            }
-            .eye2{
-                left: 245px;
-            }
-            .mouth{
-                left: 142px;
-            }
-            .wing{
-                left: 61px;
-            }
-            .leg1{
-                left: 175px;
-            }
-            .leg2{
-                left: 205px;
-            }
+      @media( max-width:400px){
+           .frame>div {
+           translate: -60px;
+           
+           }
             
-        }
+        } 
     </style>
 </head>
 <body>
